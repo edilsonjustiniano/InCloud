@@ -1,7 +1,6 @@
 package br.com.univas.si5.incloud.controller;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -26,7 +25,7 @@ public class IndexServlet extends HttpServlet {
 		System.out.println("Antes de UserBi");
 		UserBi userBi = new UserBi();
 		System.out.println("Depois de UserBi");
-		userBi.save(user);
+		//userBi.save(user);
 		
 		System.out.println("criou o user");
 		// TODO Auto-generated method stub
